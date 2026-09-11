@@ -57,7 +57,7 @@ Realised variance is accumulated only over the minutes actually observed, then c
 
 Candidate levels (opening-range high/low, first-hour VWAP, VWAP ± kσ, VWAP ± r·ATR₁₄) are ranked not by profitability but by **volatility-normalised path asymmetry**:
 
-$$\text{Asym} = \operatorname{med}(\text{MFE}) - \operatorname{med}(\text{MAE})$$
+$$\text{Asym} = \text{med}(\text{MFE}) - \text{med}(\text{MAE})$$
 
 measured over the remainder of the session after the level is crossed. Positive asymmetry means that, conditional on a crossing, the subsequent path shows directional persistence rather than mean reversion — a property of the *level*, independent of any exit rule.
 
